@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Modulo router",
+    "collectionId": "dd1e1b6c-2e2b-4096-9a08-dcefa0009c32",
+    "dateExported": "2024-09-06T16:07:53.441Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "5cea0a9f-f746-44a3-b983-c54d21dd0e65",
+            "name": "ejemplo1",
+            "containerId": "",
+            "created": "2024-09-04T13:34:38.668Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "41a6befb-f678-4c35-a98f-ed14e5a5d322",
+            "name": "Parámetros de ruta",
+            "containerId": "",
+            "created": "2024-09-04T14:32:45.366Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "52b751ea-98e9-41a0-afa3-4bc9d4fe0fcf",
+            "colId": "dd1e1b6c-2e2b-4096-9a08-dcefa0009c32",
+            "containerId": "5cea0a9f-f746-44a3-b983-c54d21dd0e65",
+            "name": "post about",
+            "url": "localhost:8000/wiki/about",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-04T13:35:06.986Z",
+            "modified": "2024-09-04T13:35:29.183Z",
+            "headers": []
+        },
+        {
+            "_id": "188f5435-44de-48fd-9486-537a43e8eb1e",
+            "colId": "dd1e1b6c-2e2b-4096-9a08-dcefa0009c32",
+            "containerId": "5cea0a9f-f746-44a3-b983-c54d21dd0e65",
+            "name": "get about",
+            "url": "localhost:8000/wiki/about",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-04T13:37:11.356Z",
+            "modified": "2024-09-04T13:37:31.175Z",
+            "headers": []
+        },
+        {
+            "_id": "499be66a-9d9e-4a29-8aa2-5637e498c360",
+            "colId": "dd1e1b6c-2e2b-4096-9a08-dcefa0009c32",
+            "containerId": "41a6befb-f678-4c35-a98f-ed14e5a5d322",
+            "name": "Get book and user id",
+            "url": "localhost:8000/users/77/books/890",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-04T14:33:13.407Z",
+            "modified": "2024-09-04T14:35:15.866Z",
+            "headers": []
+        }
+    ],
+    "ref": "r6k1cZyeTy8uSEQRLacGB2QYinTJJreHLK1iY4h0-uQqBFax9ZbZUuZOxdjmUIDLWOmv92Qs-iOdY09MSupcdQ"
+}

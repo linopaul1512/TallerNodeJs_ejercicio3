@@ -1,0 +1,108 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Conexión BD con Sequelize",
+    "collectionId": "d5689964-1a86-4e7a-b233-b50398835834",
+    "dateExported": "2024-09-06T16:08:01.746Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "adbf54e4-443e-40bb-838c-2345a47cdd7a",
+            "name": "Users",
+            "containerId": "",
+            "created": "2024-09-06T15:54:18.503Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "c127a9f7-7e18-454b-9149-65d538256ad8",
+            "name": "Posts",
+            "containerId": "",
+            "created": "2024-09-06T15:54:44.368Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "3262ea3c-9387-4d18-99ac-ff16d853bb45",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "c127a9f7-7e18-454b-9149-65d538256ad8",
+            "name": "Get post",
+            "url": "localhost:3000/posts/1",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-09-06T15:55:09.774Z",
+            "modified": "2024-09-06T15:55:57.193Z",
+            "headers": []
+        },
+        {
+            "_id": "cabd601c-e678-43bd-b968-dac673f43bff",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "adbf54e4-443e-40bb-838c-2345a47cdd7a",
+            "name": "Create users",
+            "url": "localhost:3000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-06T15:15:00.813Z",
+            "modified": "2024-09-06T15:15:00.813Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Abner\",\n  \"email\": \"email@email.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d79592e7-5fe2-41c5-ac36-01c8a23c3a0c",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "c127a9f7-7e18-454b-9149-65d538256ad8",
+            "name": "Create post",
+            "url": "localhost:3000/posts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-06T15:55:02.111Z",
+            "modified": "2024-09-06T15:59:16.472Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Post\",\n  \"content\": \"Content\",\n  \"userId\": 1\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ceba2a49-e037-40ba-b58c-c5ea3cd7c4ab",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "adbf54e4-443e-40bb-838c-2345a47cdd7a",
+            "name": "Get users",
+            "url": "localhost:3000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-06T15:15:31.847Z",
+            "modified": "2024-09-06T15:15:43.137Z",
+            "headers": []
+        },
+        {
+            "_id": "267e77d7-955f-48fe-b1c6-4599b6cc0f2d",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "c127a9f7-7e18-454b-9149-65d538256ad8",
+            "name": "Get posts",
+            "url": "localhost:3000/posts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-06T15:55:06.286Z",
+            "modified": "2024-09-06T15:56:03.217Z",
+            "headers": []
+        },
+        {
+            "_id": "be91216c-115b-4681-b55d-ba85d592365b",
+            "colId": "d5689964-1a86-4e7a-b233-b50398835834",
+            "containerId": "adbf54e4-443e-40bb-838c-2345a47cdd7a",
+            "name": "Update user",
+            "url": "localhost:3000/users/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-06T15:51:06.917Z",
+            "modified": "2024-09-06T15:53:58.595Z",
+            "headers": []
+        }
+    ],
+    "ref": "-LDpOn1uKtlCRrwPahcZ3rC1RW2k2mOnPJUl2bLe99JXyc1tG5a08-EsjO7xwZUNN71w6o2m__9fPfgNiZKrPw"
+}
